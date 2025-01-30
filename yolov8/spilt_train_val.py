@@ -6,14 +6,14 @@ import random
 random.seed(42)
 
 # 定义源和目标路径
-source_images = r'I:\IR+IR_labels\IR\images'
-source_labels = r'I:\IR+IR_labels\IR\labels'
+source_images = r'H:\FLAME2_dt\IR+IR_labels\IR\images'
+source_labels = r'H:\FLAME2_dt\IR+IR_labels\IR\labels'
 
-train_images_dest = r'I:\IR+IR_labels\images\train'
-val_images_dest = r'I:\IR+IR_labels\images\val'
+train_images_dest = r'H:\FLAME2_dt\IR+IR_labels\images\train'
+val_images_dest = r'H:\FLAME2_dt\IR+IR_labels\images\val'
 
-train_labels_dest = r'I:\IR+IR_labels\labels\train'
-val_labels_dest = r'I:\IR+IR_labels\labels\val'
+train_labels_dest = r'H:\FLAME2_dt\IR+IR_labels\labels\train'
+val_labels_dest = r'H:\FLAME2_dt\IR+IR_labels\labels\val'
 
 # 创建目标文件夹，如果不存在则创建
 os.makedirs(train_images_dest, exist_ok=True)
